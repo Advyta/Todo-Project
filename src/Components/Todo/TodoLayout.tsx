@@ -11,7 +11,6 @@ export interface Todo {
 const TodoLayout: React.FC = () => {
     const [todoList, setTodoList] = useState<Array<Todo>>([])
 
-
     return (
         <main>
             <div className='pb-5'>
