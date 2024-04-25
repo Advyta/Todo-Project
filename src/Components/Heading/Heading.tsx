@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import sunIcon from '../../assets/images/icon-sun.svg'
+import moonIcon from "../../assets/images/icon-moon.svg"
 
 const Heading: React.FC = () => {
     const light: string = 'light';
@@ -28,7 +30,7 @@ const Heading: React.FC = () => {
                 </h2>
                 <button onClick={e => switchTheme(e)}>
                     <img
-                        src={theme === dark ? "/src/assets/images/icon-sun.svg" : "/src/assets/images/icon-moon.svg"}
+                        src={theme === dark ? `${sunIcon}` : `${moonIcon}`}
                         className='h-[24px] w-[24px] transition'
                         alt="theme-icon"
                     />
