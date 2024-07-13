@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Todo app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). 
 
-Currently, two official plugins are available:
+## The challenge
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Your users should be able to:
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Clear all completed todos
+- Toggle light and dark mode
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Bonus: Drag and drop to reorder items on the list
 
-## Expanding the ESLint configuration
+## Links
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Live Site URL: [Live site URL](https://advyta.github.io/Todo-Project/)
 
-- Configure the top-level `parserOptions` property like this:
+## Built with
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React Vite
+- Typescript
+- Tailwind Css
+- React Beautiful DnD
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Useful resources
+
+- React Beautiful Dnd:- [How to Add Drag and Drop in React with React Beautiful DnD](https://www.freecodecamp.org/news/how-to-add-drag-and-drop-in-react-with-react-beautiful-dnd/)
+- Youtube tutorial:- [React & TypeScript - Course for Beginners](https://youtu.be/FJDVKeh7RJI?si=Pnu77HzsZ1M9rsRd) - Tutorial for building a todo app using typescript and implementing React Beautiful DnD
+
+## Author
+
+- Frontend Mentor - [@Advyta](https://www.frontendmentor.io/profile/Advyta)
