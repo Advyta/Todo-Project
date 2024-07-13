@@ -4,7 +4,7 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 
 ## The challenge
 
-Your users should be able to:
+Your users will be able to:
 - Add new todos to the list
 - Mark todos as complete
 - Delete todos from the list
